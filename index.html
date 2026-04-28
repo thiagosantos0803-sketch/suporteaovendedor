@@ -1168,7 +1168,7 @@
       dental: document.getElementById('contato-dental')?.value || '',
       timestamp: new Date().toISOString()
     };
-      console.log('Feedback KG:', data);fetch('https://script.google.com/macros/s/AKfycbyl1lep9yWZfbGILGOq5Mwf5hx8rGYPSls9BmZlsJAVq7EuSnhcwhMrKlidcZjCqgf1BQ/exec', {method:'POST',body:JSON.stringify(data)}));
+      console.log('Feedback KG:', data);fetch('https://script.google.com/macros/s/AKfycbyl1lep9yWZfbGILGOq5Mwf5hx8rGYPSls9BmZlsJAVq7EuSnhcwhMrKlidcZjCqgf1BQ/exec', {method:'POST',body:JSON.stringify(data)})); 
     // fetch('/api/feedback', { method:'POST', body: JSON.stringify(data), headers:{'Content-Type':'application/json'} })
     liberarCatalogo();
 
