@@ -1,0 +1,17 @@
+{
+  "name": "suporteaovendedor",
+  "version": "1.0.0",
+  "description": "KG Sorensen - Apoio para Vender Mais",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
